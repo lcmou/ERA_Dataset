@@ -5,14 +5,14 @@ body {
   max-width:960px;
   margin:10px auto;
   padding:5px;
-  border:0px solid lightgrey;
+  border:0px;
   text-align:center;
 }
 
 #members figure {
   display:inline-block;
   max-width:960px;
-  border:0px solid steelblue;
+  border:0px;
 }
 
 #members img {
