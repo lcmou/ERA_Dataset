@@ -1,5 +1,20 @@
-#main-content {
-  font-size: 36px;
-  font-weight: bold;
-  padding: 16px;
+body {
+}
+
+#members {
+  max-width:960px;
+  margin:10px auto;
+  padding:5px;
+  border:1px solid lightgrey;
+  text-align:center;
+}
+
+#members figure {
+  display:inline-block;
+  max-width:960px;
+  border:1px solid steelblue;
+}
+
+#members img {
+  display:block;
 }
