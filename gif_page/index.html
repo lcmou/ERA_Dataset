@@ -12,39 +12,33 @@
   box-sizing: border-box;
 }
 
-.column {
-  float: middle;
-  width: 50.00%;
-  padding: 5px;
+.container{
+    text-align:center;
+    
+    border:1px solid #666;
 }
-
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+.fake_img{
+    display:inline-block;
+    margin:1px 1px;
+    padding:5px;
+    
+    border:0px solid #CCC;
 }
 </style>
 </head>
 <body>
 
-    <div class="row">
-  <div class="column">
-    <img src="Parade_022_01.gif" alt="Parade" style="width:50%">
-      <center>parade/protest</center>
+
+    <div class="container">
+  <div class="fake_img">
+  <img src="Parade_022_01.gif" alt="Italy" style="width:30%">
+  <img src="running_006_06.gif" alt="Forest" style="width:30%">
   </div>
-  <div class="column">
-    <img src="running_006_06.gif" alt="running" style="width:50%">
-      <center>(night) running</center>
+  <div class="fake_img">
+  <img src="Normal_103_01.gif" alt="Italy" style="width:30%">
+  <img src="Traffic_Jam_017_02.gif" alt="Forest" style="width:30%">
   </div>
-  <div class="column">
-    <img src="Normal_103_01.gif" alt="Normal" style="width:50%">
-      <center>normal traffic</center>
-  </div>
-  <div class="column">
-    <img src="Traffic_Jam_017_02.gif" alt="Traffic_Jam" style="width:50%">
-      <center>traffic congestion</center>
-  </div>
+
 </div>
 
 </body>
