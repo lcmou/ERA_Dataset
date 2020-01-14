@@ -8,7 +8,7 @@ url: "https://projectpages.github.io"
 
 # Secondary Parameters
 baseurl: "/project-pages"
-header-img: img/home-bg.jpg
+header-img: /images/gif3.gif
 headercolor: "#FFFFFF"
 logo: /project-pages/img/logos/Project-Pages-New-Logo-Inverted.png
 
@@ -36,7 +36,7 @@ defaults:
       type: "pages"
     values:
       layout: "project"
-      header-img: "img/home-bg.jpg"
+      header-img: "/images/gif3.gif"
 
 # Prose Settings
 prose:
