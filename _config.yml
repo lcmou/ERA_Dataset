@@ -10,7 +10,7 @@ url: "https://projectpages.github.io"
 baseurl: "/project-pages"
 header-img: /images/gif3.gif
 headercolor: "#FFFFFF"
-logo: /project-pages/img/logos/Project-Pages-New-Logo-Inverted.png
+logo: /img/logos/Project-Pages-New-Logo-Inverted.png
 
 # Tertiary Parameters
 github_username:  projectpages
