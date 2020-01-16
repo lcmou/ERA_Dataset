@@ -1,7 +1,7 @@
 .intro-header .site-heading,
 .intro-header .post-heading,
 .intro-header .page-heading {
-  padding: 100px 0 50px;
+  padding: 200px 0 50px;
   color: #FFFFFF;
 }
 body {
@@ -459,6 +459,6 @@ div.float-left{
 hr.style-one {
     border: 0;
     height: 1px;
-    background: #444;
-    background-image: linear-gradient(to right, #ccc, #444, #ccc);
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
