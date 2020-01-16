@@ -10,7 +10,7 @@ url: "https://lcmou.github.io"
 baseurl: "/ERA_Dataset"
 header-img: /images/gif3.gif
 headercolor: "#FFFFFF"
-logo: /img/logos/Project-Pages-New-Logo-Inverted.png
+# logo: /img/logos/Project-Pages-New-Logo-Inverted.png
 
 # Tertiary Parameters
 github_username:  lcmou
