@@ -1,0 +1,256 @@
+﻿
+/*=============================================================
+    Authour URI: www.binarytheme.com
+    License: Commons Attribution 3.0
+
+    http://creativecommons.org/licenses/by/3.0/
+
+    100% Free To use For Personal And Commercial Use.
+    IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
+   
+    ========================================================  */
+/* =============================================================
+   GENERAL STYLES
+ ============================================================ */
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom:72px;
+   
+}
+.basic-set {
+    padding-top:50px;
+    padding-bottom:80px;
+    font-size:18px;
+}
+.head-line {
+    font-size:30px;
+    color:#f00;
+    padding-bottom:60px;
+    text-transform:uppercase;
+    font-weight:800;
+}
+    .head-line span {
+        color:#000;
+    }
+.black-btn {
+    background-color: #000000;
+    border-color: #FF0000;
+}
+    .black-btn:hover {
+        background-color: #000000;
+        border-color: #FF0000;
+    }
+/* =============================================================
+   NAVBAR STYLES
+ =========================================================== */
+
+.navbar {
+border-radius: 0px;
+margin-bottom: 0px;
+border: 0px solid transparent;
+}
+
+.navbar-inverse {
+    background-color: #0E0E0E;
+border-top: 1px solid #000;
+}
+
+    .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+        color:#f00;
+    }
+    .navbar-inverse .navbar-nav > li > a {
+        color:#fff;
+        font-size:16px;
+        padding:30px 20px;
+    }
+.navbar-toggle {
+    margin-bottom: 30px;
+}
+#nav-wrapper {
+left: 0;
+width: 100%;
+z-index: 999;
+bottom:0px;
+position: fixed;
+background-color: #ffffff;
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-ms-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+}
+/* =============================================================
+   HOME/VEDIO SECTION STYLES
+ ============================================================ */
+#home-sec {
+    height:740px;
+    color:#fff;
+    text-align:center;
+    border-bottom:0px solid #000;
+}
+    #home-sec .overlay {
+        background-color:rgba(255, 255, 255, 0);
+        min-height:740px;
+		align-items: center;
+		justify-content: center;
+    }
+    #home-sec h1 {
+        padding-top:200px;
+        font-size:80px;
+        font-weight:900;
+        padding-bottom:30px;
+    }
+	#home-sec h4 {
+        padding-top:20px;
+        font-size:30px;
+        font-weight:900;
+        padding-bottom:0px;
+    }
+        #home-sec h1 i {
+            color:#f00;
+        }
+/* =============================================================
+   SERVICES SECTION STYLES
+ ============================================================ */
+.txt-block {
+    padding-bottom:30px;
+}
+
+
+/* =============================================================
+   JUST TEXT SECTION STYLES
+ ============================================================ */
+#Just-text {
+      background-color:#000;
+}
+.mid-txt {
+    padding-top:40px;
+    padding-bottom:40px;
+    font-size:30px;
+    font-weight:900;
+    color:#fff;
+}
+
+/*==========================================
+   GALLERY/ PORTFOLIO STYLES
+    =====================================================*/
+
+#port-folio {
+    padding-top: 10px; 
+    min-height:550px;
+}
+.portfolio-item {
+    border:0px solid #f00;
+    margin:3px;
+}
+    .portfolio-item p {
+        padding:12px;
+        color:#fff;
+        line-height:25px;
+    }
+
+.portfolio-item .overlay {
+   
+  background-color: #000;
+  text-align: center;
+  padding-bottom:30px;
+  
+}
+
+/*==========================================
+   GALLERY/ PORTFOLIO FILTER STYLES
+    =====================================================*/
+ul#filters {
+	padding: 0px;
+}
+#filters {
+	margin: 3% 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+	#filters li {
+		display: -webkit-inline-box;
+	}
+	#filters li span {
+		display: block;
+		padding: 5px 4px;
+		text-decoration: none;
+		color: #d51111;
+		cursor: pointer;
+		font-size: 18px;
+	}
+ 	#port-folio .portfolio-item {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-o-box-sizing: border-box;
+		width: 100%;		
+		float:left;
+		overflow:hidden;
+        display:none;
+	}
+/* =============================================================
+   PRICE SECTION STYLES
+ ============================================================ */
+
+#price-sec {
+    background-color:#e1e1e1;
+}
+
+.price-div {
+    background-color:#fff;
+    padding:20px;
+    margin:5px;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+}
+.price-cls {
+    font-size:60px;
+    font-weight:900;
+    color:#f00;
+    padding-right:20px;
+}
+
+#price-sec .media-heading {
+    padding-top:20px;
+}
+/* =============================================================
+   CONTACT SECTION STYLES
+ ============================================================ */
+#contact-sec {
+    background-image: url("../img/contact.jpg");
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: cover;
+    -webkit-background-size: cover;
+    color:#fff;
+}
+    #contact-sec .overlay {
+        background-color:rgba(255, 255, 255, 1);
+        min-height: 700px;
+
+    }
+    #contact-sec .social {
+        padding-top:30px;
+    }
+#contact-sec .social a {
+    font-size:25px; 
+    padding:10px 30px;
+    text-decoration:none;
+    color:#fff;
+    display:block;
+    max-width:200px;
+    margin-bottom:20px;
+}
+#contact-sec .subscribe {
+    padding-top:30px;
+    background-color:#000;
+    color:#fff;
+    height:100%;
+}
+
+    #contact-sec h2 {
+        font-weight:900;
+        color:#f00;
+    }
