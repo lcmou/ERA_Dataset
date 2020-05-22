@@ -1,4 +1,4 @@
-﻿
+
 /*=============================================================
     Authour URI: www.binarytheme.com
     License: Commons Attribution 3.0
@@ -13,19 +13,19 @@
    GENERAL STYLES
  ============================================================ */
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Arial', sans-serif;
     padding-bottom:72px;
    
 }
 .basic-set {
-    padding-top:50px;
-    padding-bottom:80px;
+    padding-top:0px;
+    padding-bottom:10px;
     font-size:18px;
 }
 .head-line {
     font-size:30px;
     color:#f00;
-    padding-bottom:60px;
+    padding-bottom:10px;
     text-transform:uppercase;
     font-weight:800;
 }
